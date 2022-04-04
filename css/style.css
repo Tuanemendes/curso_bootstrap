@@ -1,0 +1,39 @@
+body{
+  font: 20px Arial,sans-serif;   
+}
+footer {
+	text-align: center;
+	background:#ae4619;
+	padding: 20px 0;
+}
+
+.navbar{
+    background-color: #ae4619;
+
+}
+.quem-somos{
+    background-color: #fceabc;
+    color: #ae4619;
+
+}
+.margin{
+    padding-bottom: 50px;
+    padding-top: 10px;
+
+}
+.cardapio{
+    background-color: #ae4619;
+
+}
+.contato{
+    background-color: #fceabc;
+    color: #ae4619;
+
+}
+
+.copyright{
+    color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+
+}

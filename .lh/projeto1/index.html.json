@@ -1,0 +1,330 @@
+{
+    "sourceFile": "projeto1/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 78,
+            "patches": [
+                {
+                    "date": 1649080394183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1649080700823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n <head>\n     <meta charset=\"UTF-8\">\n     <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n+   \n     <title>Saraiva's</title>\n </head>\n <body>\n     \n"
+                },
+                {
+                    "date": 1649080789702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,7 @@\n <!DOCTYPE html>\n-<html lang=\"en\">\n+<html lang=\"pt\">\n <head>\n-    <meta charset=\"UTF-8\">\n-    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n-    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n-   \n     <title>Saraiva's</title>\n </head>\n <body>\n     \n"
+                },
+                {
+                    "date": 1649081039308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n <!DOCTYPE html>\n <html lang=\"pt\">\n <head>\n     <title>Saraiva's</title>\n+    <meta charset=\"utf-8\">\n+    <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\" >\n </head>\n <body>\n     \n </body>\n"
+                },
+                {
+                    "date": 1649081167353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n <html lang=\"pt\">\n <head>\n     <title>Saraiva's</title>\n     <meta charset=\"utf-8\">\n-    <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\" >\n+    <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\">\n+    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\"\n </head>\n <body>\n     \n </body>\n"
+                },
+                {
+                    "date": 1649081186171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n <!DOCTYPE html>\n-<html lang=\"pt\">\n+<html lang=\"pt-br\">\n <head>\n     <title>Saraiva's</title>\n     <meta charset=\"utf-8\">\n     <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\">\n"
+                },
+                {
+                    "date": 1649081247767,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n     <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\">\n     <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\"\n </head>\n <body>\n-    \n+    <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649081349931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n <head>\n     <title>Saraiva's</title>\n     <meta charset=\"utf-8\">\n     <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\">\n-    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\"\n+    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n </head>\n <body>\n     <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n </body>\n"
+                },
+                {
+                    "date": 1649081392535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,13 @@\n <!DOCTYPE html>\n <html lang=\"pt-br\">\n-<head>\n-    <title>Saraiva's</title>\n-    <meta charset=\"utf-8\">\n-    <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\">\n-    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n-</head>\n-<body>\n-    <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n-</body>\n+    <head>\n+        <title>Saraiva's</title>\n+        <meta charset=\"utf-8\">\n+        <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\">\n+        <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n+    </head>\n+    <body>\n+        <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n+\n+    </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649081652374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n <html lang=\"pt-br\">\n     <head>\n         <title>Saraiva's</title>\n         <meta charset=\"utf-8\">\n-        <link rel=\"stylesheet\"  type=\"text/css\" href=\"/bootstrap/css/bootstrap-grid.min.css\">\n+        <link rel=\"stylesheet\"  type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\"\">\n         <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n     </head>\n     <body>\n         <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n"
+                },
+                {
+                    "date": 1649081826440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,7 +7,9 @@\n         <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n     </head>\n     <body>\n         <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n-\n+        <nav class=\"navbar navbar-expand-lg navbar-light\">\n+            <a class=\"navbar-brand\" href=\"g\"> Saraiva's Food</a>\n+        </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649081856318,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,8 @@\n         <link rel=\"stylesheet\"  type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\"\">\n         <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n     </head>\n     <body>\n-        <button type=\"button\" class=\"btn btn-primary\">Primary</button>\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n             <a class=\"navbar-brand\" href=\"g\"> Saraiva's Food</a>\n         </nav>\n     </body>\n"
+                },
+                {
+                    "date": 1649083128368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,7 +8,8 @@\n     </head>\n     <body>\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n             <a class=\"navbar-brand\" href=\"g\"> Saraiva's Food</a>\n+                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"220\" height=\"220\">\n         </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083197832,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,10 @@\n         <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n     </head>\n     <body>\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n-            <a class=\"navbar-brand\" href=\"g\"> Saraiva's Food</a>\n+            <a class=\"navbar-brand\" href=\"g\">\n                 <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"220\" height=\"220\">\n+            </a>\n         </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083214024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     </head>\n     <body>\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n             <a class=\"navbar-brand\" href=\"g\">\n-                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"220\" height=\"220\">\n+                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"50\" height=\"50\">\n             </a>\n         </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083229872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     </head>\n     <body>\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n             <a class=\"navbar-brand\" href=\"g\">\n-                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"50\" height=\"50\">\n+                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"100\" height=\"100\">\n             </a>\n         </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083244007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     </head>\n     <body>\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n             <a class=\"navbar-brand\" href=\"g\">\n-                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"100\" height=\"100\">\n+                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n             </a>\n         </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083279803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     </head>\n     <body>\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n             <a class=\"navbar-brand\" href=\"g\">\n-                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n+                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"80\">\n             </a>\n         </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083293016,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     </head>\n     <body>\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n             <a class=\"navbar-brand\" href=\"g\">\n-                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"80\">\n+                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n             </a>\n         </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083430017,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,7 +10,10 @@\n         <nav class=\"navbar navbar-expand-lg navbar-light\">\n             <a class=\"navbar-brand\" href=\"g\">\n                 <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n             </a>\n+\n+\n+\n         </nav>\n     </body>\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083870389,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,19 +1,29 @@\n <!DOCTYPE html>\n <html lang=\"pt-br\">\n-    <head>\n-        <title>Saraiva's</title>\n-        <meta charset=\"utf-8\">\n-        <link rel=\"stylesheet\"  type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\"\">\n-        <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n-    </head>\n-    <body>\n-        <nav class=\"navbar navbar-expand-lg navbar-light\">\n-            <a class=\"navbar-brand\" href=\"g\">\n-                <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n-            </a>\n \n+<head>\n+    <title>Saraiva's</title>\n+    <meta charset=\"utf-8\">\n+    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\"\n+        integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\"\">\n+        <link rel=\" stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n+</head>\n \n+<body>\n+    <nav class=\"navbar navbar-expand-lg navbar-light\">\n+        <a class=\"navbar-brand\" href=\"#\">\n+            <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n+        </a>\n+        <ul>\n+            <li>\n+                <a href=\"#\"> Quem somos </a>\n+            </li>\n+        </ul>\n \n-        </nav>\n-    </body>\n+\n+\n+\n+    </nav>\n+</body>\n+\n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649083976232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,17 +13,18 @@\n     <nav class=\"navbar navbar-expand-lg navbar-light\">\n         <a class=\"navbar-brand\" href=\"#\">\n             <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n         </a>\n-        <ul>\n-            <li>\n-                <a href=\"#\"> Quem somos </a>\n-            </li>\n-        </ul>\n+        <div class=\"collapse navbar-collapse\">\n+            <ul>\n+                <li>\n+                    <a href=\"#\"> Quem somos </a>\n+                </li>\n+            </ul>\n+        </div>\n \n \n \n-\n     </nav>\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649084105860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n         <a class=\"navbar-brand\" href=\"#\">\n             <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n         </a>\n         <div class=\"collapse navbar-collapse\">\n-            <ul>\n-                <li>\n+            <ul class=\"navbar-nav\">\n+                <li class=\"nav-item\">\n                     <a href=\"#\"> Quem somos </a>\n                 </li>\n             </ul>\n         </div>\n"
+                },
+                {
+                    "date": 1649084176435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         </a>\n         <div class=\"collapse navbar-collapse\">\n             <ul class=\"navbar-nav\">\n                 <li class=\"nav-item\">\n-                    <a href=\"#\"> Quem somos </a>\n+                    <a class=\"nav-link\" href=\"#\"> Quem somos </a>\n                 </li>\n             </ul>\n         </div>\n \n"
+                },
+                {
+                    "date": 1649084416895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n         </a>\n         <div class=\"collapse navbar-collapse\">\n             <ul class=\"navbar-nav\">\n                 <li class=\"nav-item\">\n-                    <a class=\"nav-link\" href=\"#\"> Quem somos </a>\n+                    <a href=\"#\"> Quem somos </a>\n                 </li>\n             </ul>\n         </div>\n \n"
+                },
+                {
+                    "date": 1649084544108,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,10 +3,9 @@\n \n <head>\n     <title>Saraiva's</title>\n     <meta charset=\"utf-8\">\n-    <link rel=\"stylesheet\" type=\"text/css\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\"\n-        integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\"\">\n+     <link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3\" crossorigin=\"anonymous\">\n         <link rel=\" stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n </head>\n \n <body>\n"
+                },
+                {
+                    "date": 1649084575140,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         </a>\n         <div class=\"collapse navbar-collapse\">\n             <ul class=\"navbar-nav\">\n                 <li class=\"nav-item\">\n-                    <a href=\"#\"> Quem somos </a>\n+                    <a class=\"nav-link\" href=\"#\"> Quem somos </a>\n                 </li>\n             </ul>\n         </div>\n \n"
+                },
+                {
+                    "date": 1649088365703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         </a>\n         <div class=\"collapse navbar-collapse\">\n             <ul class=\"navbar-nav\">\n                 <li class=\"nav-item\">\n-                    <a class=\"nav-link\" href=\"#\"> Quem somos </a>\n+                    <a class=\"nav-link active\" href=\"#\"> Quem somos </a>\n                 </li>\n             </ul>\n         </div>\n \n"
+                },
+                {
+                    "date": 1649088400058,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n         </a>\n         <div class=\"collapse navbar-collapse\">\n             <ul class=\"navbar-nav\">\n                 <li class=\"nav-item\">\n-                    <a class=\"nav-link active\" href=\"#\"> Quem somos </a>\n+                    <a class=\"nav-link \" href=\"#\"> Quem somos </a>\n                 </li>\n             </ul>\n         </div>\n \n"
+                },
+                {
+                    "date": 1649088458694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,8 +17,14 @@\n             <ul class=\"navbar-nav\">\n                 <li class=\"nav-item\">\n                     <a class=\"nav-link \" href=\"#\"> Quem somos </a>\n                 </li>\n+                <li class=\"nav-item\">\n+                    <a class=\"nav-link \" href=\"#\"> Cardápio </a>\n+                </li>\n+                <li class=\"nav-item\">\n+                    <a class=\"nav-link \" href=\"#\"> Contatos </a>\n+                </li>\n             </ul>\n         </div>\n \n \n"
+                },
+                {
+                    "date": 1649089521682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,11 +25,14 @@\n                     <a class=\"nav-link \" href=\"#\"> Contatos </a>\n                 </li>\n             </ul>\n         </div>\n+    </nav>\n \n-\n-\n-    </nav>\n+    <section id=\"quemsomos\">\n+        <div class=\"container quem-somos\">\n+            <p>teste</p>\n+        </div>\n+    </section>\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649089680277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         </div>\n     </nav>\n \n     <section id=\"quemsomos\">\n-        <div class=\"container quem-somos\">\n+        <div class=\"container-fluid quem-somos text-center\">\n             <p>teste</p>\n         </div>\n     </section>\n </body>\n"
+                },
+                {
+                    "date": 1649089759816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,9 +28,9 @@\n         </div>\n     </nav>\n \n     <section id=\"quemsomos\">\n-        <div class=\"container-fluid quem-somos text-center\">\n+        <div class=\"container-fluid quem-somos text-center margin\">\n             <p>teste</p>\n         </div>\n     </section>\n </body>\n"
+                },
+                {
+                    "date": 1649089948081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,9 +29,9 @@\n     </nav>\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n-            <p>teste</p>\n+            <h3>Quem somos</h3>\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649089980908,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,8 +30,9 @@\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n+            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649090063697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n-            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n+            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"burgueria\" width=\"500\" height=\"500\">\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649090073956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n-            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"burgueria\" width=\"500\" height=\"500\">\n+            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"burgueria\" width=\"500\" height=\"350\">\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649090175199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n-            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"burgueria\" width=\"500\" height=\"350\">\n+            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" class=\"\" alt=\"burgueria\" width=\"400\" height=\"350\">\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649090218220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n-            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" class=\"\" alt=\"burgueria\" width=\"400\" height=\"350\">\n+            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"350\">\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649090417060,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n-            <img src=\"/img/como-montar-uma-hamburgueria.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"350\">\n+            <img src=\"/img/quemsomos.jpeg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"350\">\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649090740656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n-            <img src=\"/img/quemsomos.jpeg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"350\">\n+            <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"350\">\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649090798991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -30,9 +30,9 @@\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n-            <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"350\">\n+            <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"400\">\n         </div>\n     </section>\n </body>\n \n"
+                },
+                {
+                    "date": 1649090955536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,9 +31,11 @@\n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n             <h3>Quem somos</h3>\n             <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"400\">\n-        </div>\n+            <h3>Somos uma hambugueria  focada na satisfação do cliente</h3>\n+\n+            </div>\n     </section>\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649091004660,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n         <link rel=\" stylesheet\" type=\"text/css\" href=\"/css/style.css\">\n </head>\n \n <body>\n-    <nav class=\"navbar navbar-expand-lg navbar-light\">\n+    <nav class=\"navbar navbar-expand-lg navbar-light margin\">\n         <a class=\"navbar-brand\" href=\"#\">\n             <img src=\"/img/saraivasfood.png\" alt=\"logo\" width=\"120\" height=\"120\">\n         </a>\n         <div class=\"collapse navbar-collapse\">\n"
+                },
+                {
+                    "date": 1649091547305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -35,7 +35,14 @@\n             <h3>Somos uma hambugueria  focada na satisfação do cliente</h3>\n \n             </div>\n     </section>\n+    <section id=\"cardapio\">\n+        <div class=\"container-fluid text-center margin\">\n+           <h3>Cardápio</h3> \n+\n+        </div>\n+    </section>\n+\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649091622385,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n \n             </div>\n     </section>\n     <section id=\"cardapio\">\n-        <div class=\"container-fluid text-center margin\">\n+        <div class=\"container-fluid text-center margin cardapio\">\n            <h3>Cardápio</h3> \n \n         </div>\n     </section>\n"
+                },
+                {
+                    "date": 1649091856482,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -38,9 +38,16 @@\n     </section>\n     <section id=\"cardapio\">\n         <div class=\"container-fluid text-center margin cardapio\">\n            <h3>Cardápio</h3> \n+            <div class=\"container\">\n+                <div class=\"row\">\n+                    <div class=\"col-md-4\">\n+                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\">\n \n+                    </div>\n+                </div>\n+            </div>\n         </div>\n     </section>\n \n </body>\n"
+                },
+                {
+                    "date": 1649091897783,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,8 +44,12 @@\n                     <div class=\"col-md-4\">\n                          <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\">\n \n                     </div>\n+                    <div>\n+                        <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"\">\n+\n+                    </div>\n                 </div>\n             </div>\n         </div>\n     </section>\n"
+                },
+                {
+                    "date": 1649092000732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,13 +29,18 @@\n     </nav>\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n-            <h3>Quem somos</h3>\n-            <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"400\">\n-            <h3>Somos uma hambugueria  focada na satisfação do cliente</h3>\n+            <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"\">\n+            <div>\n+                <h3>Quem somos</h3>\n+                <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"400\">\n+                <h3>Somos uma hambugueria  focada na satisfação do cliente</h3>\n \n-            </div>\n+            </div> \n+            \n+\n+        </div>\n     </section>\n     <section id=\"cardapio\">\n         <div class=\"container-fluid text-center margin cardapio\">\n            <h3>Cardápio</h3> \n"
+                },
+                {
+                    "date": 1649092048750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,17 +29,11 @@\n     </nav>\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n-            <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"\">\n-            <div>\n                 <h3>Quem somos</h3>\n                 <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"400\">\n                 <h3>Somos uma hambugueria  focada na satisfação do cliente</h3>\n-\n-            </div> \n-            \n-\n         </div>\n     </section>\n     <section id=\"cardapio\">\n         <div class=\"container-fluid text-center margin cardapio\">\n@@ -49,9 +43,9 @@\n                     <div class=\"col-md-4\">\n                          <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\">\n \n                     </div>\n-                    <div>\n+                    <div class=\"col-md-4\">\n                         <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"\">\n \n                     </div>\n                 </div>\n"
+                },
+                {
+                    "date": 1649092087786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n                          <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\">\n \n                     </div>\n                     <div class=\"col-md-4\">\n-                        <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"\">\n+                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n \n                     </div>\n                 </div>\n             </div>\n"
+                },
+                {
+                    "date": 1649092108781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -47,8 +47,12 @@\n                     <div class=\"col-md-4\">\n                         <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n \n                     </div>\n+                    <div class=\"col-md-4\">\n+                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n+\n+                    </div>\n                 </div>\n             </div>\n         </div>\n     </section>\n"
+                },
+                {
+                    "date": 1649092153553,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n            <h3>Cardápio</h3> \n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-md-4\">\n-                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\">\n+                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"100px\" height=\"100px\" >\n \n                     </div>\n                     <div class=\"col-md-4\">\n                         <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n"
+                },
+                {
+                    "date": 1649092171967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n            <h3>Cardápio</h3> \n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-md-4\">\n-                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"100px\" height=\"100px\" >\n+                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"200px\" height=\"200px\" >\n \n                     </div>\n                     <div class=\"col-md-4\">\n                         <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n"
+                },
+                {
+                    "date": 1649092180420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n            <h3>Cardápio</h3> \n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-md-4\">\n-                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"200px\" height=\"200px\" >\n+                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"250px\" height=\"200px\" >\n \n                     </div>\n                     <div class=\"col-md-4\">\n                         <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n"
+                },
+                {
+                    "date": 1649092198493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,13 +44,13 @@\n                          <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"250px\" height=\"200px\" >\n \n                     </div>\n                     <div class=\"col-md-4\">\n-                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n+                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"250px\" height=\"200px\">\n \n                     </div>\n                     <div class=\"col-md-4\">\n-                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\">\n+                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"250px\" height=\"200px\">\n \n                     </div>\n                 </div>\n             </div>\n"
+                },
+                {
+                    "date": 1649092266723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,17 +39,17 @@\n         <div class=\"container-fluid text-center margin cardapio\">\n            <h3>Cardápio</h3> \n             <div class=\"container\">\n                 <div class=\"row\">\n-                    <div class=\"col-md-4\">\n+                    <div class=\"col-lg-4\">\n                          <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"250px\" height=\"200px\" >\n \n                     </div>\n-                    <div class=\"col-md-4\">\n+                    <div class=\"col-lg-4\">\n                         <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"250px\" height=\"200px\">\n \n                     </div>\n-                    <div class=\"col-md-4\">\n+                    <div class=\"col-lg-4\">\n                         <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"250px\" height=\"200px\">\n \n                     </div>\n                 </div>\n"
+                },
+                {
+                    "date": 1649092324471,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,17 +40,17 @@\n            <h3>Cardápio</h3> \n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-4\">\n-                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"250px\" height=\"200px\" >\n+                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"100%\" >\n \n                     </div>\n                     <div class=\"col-lg-4\">\n-                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"250px\" height=\"200px\">\n+                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"100%\">\n \n                     </div>\n                     <div class=\"col-lg-4\">\n-                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"250px\" height=\"200px\">\n+                        <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"100%\">\n \n                     </div>\n                 </div>\n             </div>\n"
+                },
+                {
+                    "date": 1649092338991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -40,9 +40,9 @@\n            <h3>Cardápio</h3> \n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-4\">\n-                         <img src=\"/img/dia_do_hamburguer_EPA_0.jpg\" alt=\"\" width=\"100%\" >\n+                         <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"100%\" >\n \n                     </div>\n                     <div class=\"col-lg-4\">\n                         <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"100%\">\n"
+                },
+                {
+                    "date": 1649092456451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,7 +56,14 @@\n             </div>\n         </div>\n     </section>\n \n+    <section id=\"contato\">\n+        <div>\n+\n+\n+        </div>\n+    </section>\n+\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649092533105,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,10 +56,10 @@\n             </div>\n         </div>\n     </section>\n \n-    <section id=\"contato\">\n-        <div>\n+    <section id=\"contatos\">\n+        <div class=\"container-fluid text-center margin\">\n \n \n         </div>\n     </section>\n"
+                },
+                {
+                    "date": 1649092544844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,10 +58,10 @@\n     </section>\n \n     <section id=\"contatos\">\n         <div class=\"container-fluid text-center margin\">\n+            <h3>Contatos</h3>\n \n-\n         </div>\n     </section>\n \n </body>\n"
+                },
+                {
+                    "date": 1649092574428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n         </div>\n     </section>\n \n     <section id=\"contatos\">\n-        <div class=\"container-fluid text-center margin\">\n+        <div class=\"container-fluid text-center margin contatos\">\n             <h3>Contatos</h3>\n \n         </div>\n     </section>\n"
+                },
+                {
+                    "date": 1649093091201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,9 +59,18 @@\n \n     <section id=\"contatos\">\n         <div class=\"container-fluid text-center margin contatos\">\n             <h3>Contatos</h3>\n-\n+            <div class=\"container\">\n+                <div class=\"row\">\n+                    <div class=\"col-lg-6\">\n+                        <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\">\n+                    </div>\n+                    <div class=\"col-lg-6\">\n+                        <img src=\"/img/boa-localização.jpg\" alt=\"\">\n+                    </div>\n+                </div>\n+            </div>\n         </div>\n     </section>\n \n </body>\n"
+                },
+                {
+                    "date": 1649093117736,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,12 +62,12 @@\n             <h3>Contatos</h3>\n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-6\">\n-                        <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\">\n+                        <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n-                        <img src=\"/img/boa-localização.jpg\" alt=\"\">\n+                        <img src=\"/img/boa-localização.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                 </div>\n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1649093622077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n         </div>\n     </section>\n     <section id=\"cardapio\">\n         <div class=\"container-fluid text-center margin cardapio\">\n-           <h3>Cardápio</h3> \n+           <h3 class=\"margin\">Cardápio</h3> \n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-4\">\n                          <img src=\"/img/como-montar-uma-hamburgueria.jpg\" alt=\"\" width=\"100%\" >\n@@ -58,12 +58,13 @@\n     </section>\n \n     <section id=\"contatos\">\n         <div class=\"container-fluid text-center margin contatos\">\n-            <h3>Contatos</h3>\n+            <h3 class=\"margin\">Contatos</h3>\n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-6\">\n+                        <p> Intagram</p>\n                         <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n                         <img src=\"/img/boa-localização.jpg\" alt=\"\" width=\"100%\">\n"
+                },
+                {
+                    "date": 1649093719604,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,11 +29,11 @@\n     </nav>\n \n     <section id=\"quemsomos\">\n         <div class=\"container-fluid quem-somos text-center margin\">\n-                <h3>Quem somos</h3>\n-                <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"400\">\n-                <h3>Somos uma hambugueria  focada na satisfação do cliente</h3>\n+            <h3 class=\"margin\">Quem somos</h3>\n+            <img src=\"/img/FICHA-TECNICA-PARA-HAMBURGUERIA-DICA.jpg\" class=\"rounded-circle\" alt=\"burgueria\" width=\"400\" height=\"400\">\n+            <h3>Somos uma hambugueria  focada na satisfação do cliente</h3>\n         </div>\n     </section>\n     <section id=\"cardapio\">\n         <div class=\"container-fluid text-center margin cardapio\">\n"
+                },
+                {
+                    "date": 1649093847564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,9 +66,10 @@\n                         <p> Intagram</p>\n                         <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n-                        <img src=\"/img/boa-localização.jpg\" alt=\"\" width=\"100%\">\n+                        <p> Mapas</p>\n+                        <iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15005.197055124281!2d-44.08652225!3d-19.91179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1649093787628!5m2!1spt-BR!2sbr\" width=\"100%\"  style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n                     </div>\n                 </div>\n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1649093864579,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n                         <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n                         <p> Mapas</p>\n-                        <iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15005.197055124281!2d-44.08652225!3d-19.91179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1649093787628!5m2!1spt-BR!2sbr\" width=\"100%\"  style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n+                        <iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15005.197055124281!2d-44.08652225!3d-19.91179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1649093787628!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n                     </div>\n                 </div>\n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1649093933013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,9 @@\n                         <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n                         <p> Mapas</p>\n-                        <iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15005.197055124281!2d-44.08652225!3d-19.91179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1649093787628!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n+                        <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.8455517590714!2d-44.02769498450882!3d-19.846486940844304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6922b50d9f6bb%3A0x419cabd354821c77!2sR.%20Cl%C3%A1udio%20Manoel%20da%20Costa%20-%20Nacional%2C%20Contagem%20-%20MG%2C%2032185-210!5e0!3m2!1spt-BR!2sbr!4v1649093905627!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n                     </div>\n                 </div>\n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1649094265999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,9 +67,10 @@\n                         <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n                         <p> Mapas</p>\n-                        <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.8455517590714!2d-44.02769498450882!3d-19.846486940844304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6922b50d9f6bb%3A0x419cabd354821c77!2sR.%20Cl%C3%A1udio%20Manoel%20da%20Costa%20-%20Nacional%2C%20Contagem%20-%20MG%2C%2032185-210!5e0!3m2!1spt-BR!2sbr!4v1649093905627!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n+                        <link rel=\"stylesheet\" href=\"https://www.instagram.com/saraivasfood/\">\n+                        <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.8455517590714!2d-44.02769498450882!3d-19.846486940844304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6922b50d9f6bb%3A0x419cabd354821c77!2sR.%20Cl%C3%A1udio%20Manoel%20da%20Costa%20-%20Nacional%2C%20Contagem%20-%20MG%2C%2032185-210!5e0!3m2!1spt-BR!2sbr!4v1649093905627!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n                     </div>\n                 </div>\n             </div>\n         </div>\n"
+                },
+                {
+                    "date": 1649094327810,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,14 +62,14 @@\n             <h3 class=\"margin\">Contatos</h3>\n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-6\">\n-                        <p> Intagram</p>\n+                        <a href=\"https://www.instagram.com/saraivasfood/\">Intagram</a>\n                         <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n                         <p> Mapas</p>\n-                        <link rel=\"stylesheet\" href=\"https://www.instagram.com/saraivasfood/\">\n+                       \n                         <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.8455517590714!2d-44.02769498450882!3d-19.846486940844304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6922b50d9f6bb%3A0x419cabd354821c77!2sR.%20Cl%C3%A1udio%20Manoel%20da%20Costa%20-%20Nacional%2C%20Contagem%20-%20MG%2C%2032185-210!5e0!3m2!1spt-BR!2sbr!4v1649093905627!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"100%\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n                     </div>\n                 </div>\n             </div>\n"
+                },
+                {
+                    "date": 1649094354067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n             <h3 class=\"margin\">Contatos</h3>\n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-6\">\n-                        <a href=\"https://www.instagram.com/saraivasfood/\">Intagram</a>\n+                        <a class=\"nav-link \" href=\"https://www.instagram.com/saraivasfood/\">Intagram</a>\n                         <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n                         <p> Mapas</p>\n"
+                },
+                {
+                    "date": 1649094382497,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,9 @@\n             <h3 class=\"margin\">Contatos</h3>\n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-6\">\n-                        <a class=\"nav-link \" href=\"https://www.instagram.com/saraivasfood/\">Intagram</a>\n+                        <a class=\"nav-link active\" href=\"https://www.instagram.com/saraivasfood/\">Intagram</a>\n                         <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n                         <p> Mapas</p>\n"
+                },
+                {
+                    "date": 1649094415692,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,9 @@\n             <div class=\"container\">\n                 <div class=\"row\">\n                     <div class=\"col-lg-6\">\n                         <a class=\"nav-link active\" href=\"https://www.instagram.com/saraivasfood/\">Intagram</a>\n-                        <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\">\n+                        <img src=\"/img/Instagram-1-1000x450.jpg\" alt=\"\" width=\"100%\" height=\"100%\">\n                     </div>\n                     <div class=\"col-lg-6\">\n                         <p> Mapas</p>\n                        \n"
+                },
+                {
+                    "date": 1649094723813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,7 +75,12 @@\n             </div>\n         </div>\n     </section>\n \n+    <footer class=\"container-fluid text-center\">\n+        <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"\">\n+        <p> © Copyright Saraiva's Food - 2022</p>\n+    </footer>        \n+\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649094791700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,11 +76,10 @@\n         </div>\n     </section>\n \n     <footer class=\"container-fluid text-center\">\n-        <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"\">\n-        <p> © Copyright Saraiva's Food - 2022</p>\n+        <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"fundo\">\n+        <p class=\"copyright\"> © Copyright Saraiva's Food - 2022</p>\n     </footer>        \n-\n </body>\n \n </html>\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649095008033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,8 @@\n         </div>\n     </section>\n \n     <footer class=\"container-fluid text-center\">\n-        <img src=\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\" alt=\"fundo\">\n         <p class=\"copyright\"> © Copyright Saraiva's Food - 2022</p>\n     </footer>        \n </body>\n \n"
+                },
+                {
+                    "date": 1649095322061,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,15 +15,15 @@\n         </a>\n         <div class=\"collapse navbar-collapse\">\n             <ul class=\"navbar-nav\">\n                 <li class=\"nav-item\">\n-                    <a class=\"nav-link \" href=\"#\"> Quem somos </a>\n+                    <a class=\"nav-link\" href=\"#\"> Quem somos </a>\n                 </li>\n                 <li class=\"nav-item\">\n-                    <a class=\"nav-link \" href=\"#\"> Cardápio </a>\n+                    <a class=\"nav-link\" href=\"#\"> Cardápio </a>\n                 </li>\n                 <li class=\"nav-item\">\n-                    <a class=\"nav-link \" href=\"#\"> Contatos </a>\n+                    <a class=\"nav-link\" href=\"#\"> Contatos </a>\n                 </li>\n             </ul>\n         </div>\n     </nav>\n"
+                }
+            ],
+            "date": 1649080394183,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Saraiva's</title>\n</head>\n<body>\n    \n</body>\n</html>"
+        }
+    ]
+}

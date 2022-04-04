@@ -1,0 +1,90 @@
+{
+    "sourceFile": "css/style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 18,
+            "patches": [
+                {
+                    "date": 1649088561403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1649089524309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n .navbar{\n     background-color: #ae4619;\n \n+}\n+.quem-somos{\n+    background-color: ;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649089551498,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n     background-color: #ae4619;\n \n }\n .quem-somos{\n-    background-color: ;\n+    background-color: #fceabc;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649089706364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,9 @@\n }\n .quem-somos{\n     background-color: #fceabc;\n \n+}\n+.margin{\n+    margin-top: 30px;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649089738674,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,7 @@\n \n }\n .margin{\n     margin-top: 30px;\n+    padding-top:30px ;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649089744620,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,7 @@\n     background-color: #fceabc;\n \n }\n .margin{\n-    margin-top: 30px;\n-    padding-top:30px ;\n+    padding-top:30px;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649089774348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,7 +6,7 @@\n     background-color: #fceabc;\n \n }\n .margin{\n-    padding-top:30px;\n+    padding-top:50px;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649090870672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,6 +7,7 @@\n \n }\n .margin{\n     padding-top:50px;\n+    padding-bottom: 50px;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649090989489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,7 @@\n     background-color: #fceabc;\n \n }\n .margin{\n-    padding-top:50px;\n     padding-bottom: 50px;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649091065529,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,8 +3,9 @@\n \n }\n .quem-somos{\n     background-color: #fceabc;\n+    color: #ae4619;\n \n }\n .margin{\n     padding-bottom: 50px;\n"
+                },
+                {
+                    "date": 1649091139624,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,8 @@\n+body{\n+  font: 20px Arial,sans-serif;   \n+}\n+\n .navbar{\n     background-color: #ae4619;\n \n }\n"
+                },
+                {
+                    "date": 1649091577396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,7 @@\n \n }\n .margin{\n     padding-bottom: 50px;\n+    padding-top: 10px;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649091616239,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,5 +14,9 @@\n .margin{\n     padding-bottom: 50px;\n     padding-top: 10px;\n \n+}\n+.cardapio{\n+    background-color: #ae4619;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649092589412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,5 +18,9 @@\n }\n .cardapio{\n     background-color: #ae4619;\n \n+}\n+.contato{\n+    background-color: #fceabc;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649092609513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,6 +21,7 @@\n \n }\n .contato{\n     background-color: #fceabc;\n+    color: #ae4619;\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649094865037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -23,5 +23,12 @@\n .contato{\n     background-color: #fceabc;\n     color: #ae4619;\n \n+}\n+\n+.copyright{\n+    color: #FFFFFF;\n+\tfont-size: 13px;\n+\tmargin: 20px 0 0;\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1649094997691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,12 @@\n body{\n   font: 20px Arial,sans-serif;   \n }\n+footer {\n+\ttext-align: center;\n+\tbackground: url(\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\");\n+\tpadding: 40px 0;\n+}\n \n .navbar{\n     background-color: #ae4619;\n \n"
+                },
+                {
+                    "date": 1649095076513,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   font: 20px Arial,sans-serif;   \n }\n footer {\n \ttext-align: center;\n-\tbackground: url(\"/img/27cc887a3ec0d44abc315f40abb07257.jpg\");\n+\tbackground:#ae4619;\n \tpadding: 40px 0;\n }\n \n .navbar{\n"
+                },
+                {
+                    "date": 1649095087202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n }\n footer {\n \ttext-align: center;\n \tbackground:#ae4619;\n-\tpadding: 40px 0;\n+\tpadding: 20px 0;\n }\n \n .navbar{\n     background-color: #ae4619;\n"
+                }
+            ],
+            "date": 1649088561403,
+            "name": "Commit-0",
+            "content": ".navbar{\n    background-color: #ae4619;\n\n}"
+        }
+    ]
+}
